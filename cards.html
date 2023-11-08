@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Bootstrap - Cards</title>
+    <style> /* estilizando a imagem de fundo, trabalhando com transparência, diminuindo a opacidade da imagem */
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bootstrap - cards</h1>
+
+    <div class="container"> <!--https://getbootstrap.com/docs/5.0/layout/containers/-->
+        <div class="row"> <!--https://getbootstrap.com/docs/5.0/layout/grid/-->
+            <div class="col-4"> <!--https://getbootstrap.com/docs/5.0/layout/grid/-->
+                <article class="card"> <!--https://getbootstrap.com/docs/5.0/components/card/-->
+                    <header class="card-header"> <!--https://getbootstrap.com/docs/5.0/components/card/-->
+                        Cabeçalho do header
+                    </header>
+                    <img src="https://via.placeholder.com/100x100">
+                    <div class="card-body"> <!--corpo do card - https://getbootstrap.com/docs/5.0/components/card/-->
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam optio veniam inventore mollitia, reprehenderit laudantium animi quas, deserunt reiciendis alias totam ea temporibus voluptate? Eligendi ab reprehenderit impedit sed.</p>       
+                        <a href="#" class="btn btn-primary">Saiba mais</a> 
+                    </div>
+                    <footer class="card-footer">
+                        Postado em: <time>30/10/2023 as 22:58</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4"> <!--https://getbootstrap.com/docs/5.0/layout/grid/-->
+                <div class="card text-bg-dark"> <!--Muda a cor de fundo para escuro - https://getbootstrap.com/docs/5.0/components/badge/#background-colors-->
+                    <div class="card-header"> <!--https://getbootstrap.com/docs/5.0/components/card/-->
+                        Cabeçalho do header
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                    <div class="card-body"> <!--corpo do card - https://getbootstrap.com/docs/5.0/components/card/-->
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam optio veniam inventore mollitia, reprehenderit laudantium animi quas, deserunt reiciendis alias totam ea temporibus voluptate? Eligendi ab reprehenderit impedit sed.</p>       
+                        <a href="#" class="btn btn-primary">Saiba mais</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"> <!--https://getbootstrap.com/docs/5.0/layout/grid/-->
+                <div class="card text-bg-dark"> 
+                    <img src="./img/border-collie.jpg">
+                    <div class="card-img-overlay"> <!-- Coloca uma imagem de fundo -->
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam optio veniam inventore mollitia, reprehenderit laudantium animi quas, deserunt reiciendis alias totam ea temporibus voluptate? Eligendi ab reprehenderit impedit sed.</p>       
+                        <a href="#" class="btn btn-primary">Saiba mais</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--links para cheatsheets de bootstrap-->
+<!--https://hackerthemes.com/bootstrap-cheatsheet/
+    https://getbootstrap.com/docs/5.0/examples/cheatsheet/
+-->
+
+
+
+

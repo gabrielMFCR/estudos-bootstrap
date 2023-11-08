@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Dropdown</title>
+</head>
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                Cadastrar
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                    <a href="#">Novo usuário</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Novo fornecedor</a>
+                </li>
+                <li class="dropdown-item">
+                    <a href="#">Novo funcionário</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!--Utilizar a classe dropdown na div após a div container-->
+
+<!--(Atributo) data-bs-toggle="dropdown" para poder o correr o dropdown do menu-->
+
+<!--Temos tbm no botão de menu a class btn btn-pimary dropdown-toggle-->
+
+<!--No ul colocamos a class dropdown-menu se adicionarmos dropdown-menu-dark a esta class o menu ficara num tom escuro-->
+
+<!--No li colocamos a class dropdown-item que vai estilizar de acordo com o bootstrap-->
+
+<!--
+    Caso eu quisesse separar o botão da setinha de dropdown eu faria o seguinte:
+    <div class="btn-group"> -- Isso vai unir os botões
+            <button class="btn btn-primary">
+                Cadastrar
+            </button>
+            <button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">
+            </button>
+-->
+
+
+
